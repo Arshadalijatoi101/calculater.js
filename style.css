@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(assets/study.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.calculator {
+    background-image: url(assets/math.jpg);
+    background-position: center;
+    padding: 20px;
+    width: 300px;
+    border-radius: 8px;
+    text-align: center;
+    color: #fcf8fd;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: rgb(142, 134, 134);
+}
+
+.buttons button {
+    width: 22%;
+    padding: 10px;
+    margin: 5px 1%;
+    background-color: antiquewhite;
+}
+
+@media (max-width: 600px) {
+    .calculator {
+        width: 90%;
+    }
+}
